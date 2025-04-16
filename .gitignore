@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/ApiGestionChallenge/obj/Debug/net9.0
+/.vs/Sol_ApiGestionChallenge/FileContentIndex
