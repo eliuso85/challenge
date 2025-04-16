@@ -1,0 +1,11 @@
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\bin\Debug\net8.0\Domain.deps.json
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\bin\Debug\net8.0\Domain.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\bin\Debug\net8.0\Domain.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\Domain.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Entities\obj\Debug\net8.0\ref\Domain.dll

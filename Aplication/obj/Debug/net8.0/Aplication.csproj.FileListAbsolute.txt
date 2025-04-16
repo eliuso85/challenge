@@ -1,0 +1,17 @@
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Aplication.deps.json
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Aplication.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Aplication.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Entities.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Entities.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.csproj.AssemblyReference.cache
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfoInputs.cache
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfo.cs
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.csproj.Up2Date
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\refint\Aplication.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\Aplication.pdb
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Aplication\obj\Debug\net8.0\ref\Aplication.dll
