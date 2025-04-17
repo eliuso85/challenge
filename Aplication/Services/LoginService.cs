@@ -3,6 +3,7 @@ using Domain.DTO;
 using Domain.Request;
 using Domain.Response;
 using Infrastructure.Authentication;
+using Infrastructure.Repository.Data;
 using Infrastructure.Repository.Interfaces;
 using Infrastructure.Tools;
 using System;
@@ -43,11 +44,40 @@ public class LoginService(IRepositoryLogin _repositoryLogin, JwtTokenGenerator _
             }
             else
             {
+                var SessionActiva = await _repositoryLogin.LoginUserActiveAsync(dataUser);
+
+                if (SessionActiva != null)
+                {
+                    var authResponseActiva = new AuthResponse
+                    {
+                        Token = SessionActiva.Token,
+                        Email = dataUser.Email,
+                        Role = dataUser.Role
+                    };
+
+                    responseApi.Data = authResponseActiva;
+                    responseApi.Success = true;
+                    responseApi.Mensajes.Add($"El Usuario con el correo: {userLogin.Email} ya tiene una sesion activa.");
+                    return responseApi;
+                }
+
                 var gettoken = _jwtTokenGenerator.GenerateToken(dataUser);
+
+                #region Sesion Activa
+                SesionActiva sesionActiva = new()
+                {
+                    Id = dataUser.Id,
+                    Token = gettoken.Token,
+                    FechaExpiracion = gettoken.FechaExpiracion
+                };
+
+                //Se guarda la sesion 
+                await _repositoryLogin.SaveUserActiveAsync(sesionActiva);
+                #endregion
 
                 var authResponse = new AuthResponse
                 {
-                    Token = gettoken,
+                    Token = gettoken.Token,
                     Email = dataUser.Email,
                     Role = dataUser.Role
                 };

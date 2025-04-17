@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4wKvrZV5fTI=",
+  "dgSpecHash": "7qkgfyZYJbE=",
   "success": true,
   "projectFilePath": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Application.csproj",
   "expectedPackageFiles": [
@@ -17,12 +17,15 @@
     "C:\\Users\\elius\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.8.0\\microsoft.identitymodel.jsonwebtokens.8.8.0.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\microsoft.identitymodel.logging\\8.8.0\\microsoft.identitymodel.logging.8.8.0.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.8.0\\microsoft.identitymodel.tokens.8.8.0.nupkg.sha512",
+    "C:\\Users\\elius\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\elius\\.nuget\\packages\\stackexchange.redis\\2.8.31\\stackexchange.redis.2.8.31.nupkg.sha512",
     "C:\\Users\\elius\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
-    "C:\\Users\\elius\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.8.0\\system.identitymodel.tokens.jwt.8.8.0.nupkg.sha512"
+    "C:\\Users\\elius\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.8.0\\system.identitymodel.tokens.jwt.8.8.0.nupkg.sha512",
+    "C:\\Users\\elius\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

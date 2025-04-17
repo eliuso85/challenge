@@ -50,5 +50,67 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ApiGestionChallenge.Controllers.SesionesController",
+    "Method": "ObtenerSesionesActivas",
+    "RelativePath": "api/v1/Sesiones/activas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestionChallenge.Controllers.SesionesController",
+    "Method": "FinalizarSesion",
+    "RelativePath": "api/v1/Sesiones/finalizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Domain.Request.FinalizarSesionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Response.ResponseApi",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiGestionChallenge.Controllers.SesionesController",
+    "Method": "IniciarSesion",
+    "RelativePath": "api/v1/Sesiones/iniciar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Domain.Request.IniciarSesionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Response.ResponseApi",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
