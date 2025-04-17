@@ -1,4 +1,9 @@
-El proyecto se descraga en Delevelop y se ejecuta ya tiene los merge de dependencias, la base de datos esta libre y es de pruebas 
+El proyecto se descraga en Delevelop y se ejecuta ya tiene los merge de dependencias, la base de datos esta libre y es de pruebas SOLO ES EJECUTAR EL SWAGGER 
+
+
+En el apartado de HITHUB - WIKI - SE ENCUENTRA EL ANALISIS DETALLADO DE LA PRUEBA ASI COMO PROPUETAS DE HU ALGUNAS MEJORAS ETC.
+
+
 
 
 js para crear un nuevo usuario
