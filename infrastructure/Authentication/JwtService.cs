@@ -1,6 +1,4 @@
-﻿using AutoMapper.Configuration;
-using Domain.DTO;
-using Microsoft.Extensions.Configuration;
+﻿using Domain.DTO;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -9,35 +7,38 @@ using System.Text;
 
 namespace Infrastructure.Authentication;
 
-public class JwtTokenGenerator
+public class JwtTokenGenerator(IOptions<JwtSettings> jwtOptions)
 {
-    private readonly JwtSettings _jwtSettings;
+    private readonly JwtSettings _jwtSettings = jwtOptions.Value;
 
-    public JwtTokenGenerator(IOptions<JwtSettings> jwtOptions)
+    public SesionActiva GenerateToken(User user)
     {
-        _jwtSettings = jwtOptions.Value;
-    }
+        SesionActiva sesionActiva = new();
 
-    public string GenerateToken(User user)
-    {
         var claims = new[]
           {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                new Claim("role", user.Role.ToString())
+                new Claim(ClaimTypes.Role, user.Role.ToString())
             };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
         var credentials = new SigningCredentials(key, SecurityAlgorithms.Aes128CbcHmacSha256);
+        var expiresInMinutes = DateTime.Now.AddMinutes(_jwtSettings.ExpirationInMinutes);
 
         var token = new JwtSecurityToken(
             issuer: _jwtSettings.Issuer,
             audience: _jwtSettings.Audience,
             claims: claims,
-            expires: DateTime.UtcNow.AddMinutes(_jwtSettings.ExpirationInMinutes),
+            expires: expiresInMinutes,
             signingCredentials: credentials
         );
-        return new JwtSecurityTokenHandler().WriteToken(token);
+
+        sesionActiva.Id = user.Id;
+        sesionActiva.Token = new JwtSecurityTokenHandler().WriteToken(token);
+        sesionActiva.FechaExpiracion = expiresInMinutes;
+
+        return sesionActiva;
     }
 
 

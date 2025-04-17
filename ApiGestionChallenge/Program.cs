@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using ApiGestionChallenge.Middlewares;
+using Application.Interfaces;
 using Application.Services;
 using Domain.DTO;
 using Infrastructure.Authentication;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using StackExchange.Redis;
 using System.Data;
 using System.Text;
 
@@ -19,7 +21,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConn");
 builder.Services.AddScoped<IDbConnection>(sp => new SqlConnection(connectionString));
 
 // ========================================
-// CONFIGURACIÓN JWT: 
+// CONFIGURACIÓN
 // ========================================
 builder.Services.Configure<JwtSettings>(
     builder.Configuration.GetSection("JwtSettings")
@@ -27,6 +29,16 @@ builder.Services.Configure<JwtSettings>(
 
 builder.Services.AddSingleton(sp =>
     sp.GetRequiredService<IOptions<JwtSettings>>().Value);
+
+
+//var redisConnectionString = builder.Configuration.GetConnectionString("Redis");
+
+//if (string.IsNullOrWhiteSpace(redisConnectionString))
+//    throw new InvalidOperationException("Redis connection string is not configured.");
+
+//builder.Services.AddSingleton<IConnectionMultiplexer>(
+//    ConnectionMultiplexer.Connect(redisConnectionString)
+//);
 
 // ========================================
 // INYECCIÓN DE DEPENDENCIAS
@@ -39,18 +51,21 @@ builder.Services.AddScoped<IGestionService, GestionService>();
 // se agrega el Servicio y la Interfaz del Login 
 builder.Services.AddScoped<IRepositoryLogin, RepositoryLogin>();
 builder.Services.AddScoped<ILoginService, LoginService>();
-
+// se agrega el Servicio y la Interfaz de la Session 
+builder.Services.AddScoped<IRepositorySession, RepositorySession>();
+builder.Services.AddScoped<ISessionService, SessionService>();
 // ========================================
 // AUTENTICACIÓN JWT
 // ========================================
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
-var key = Encoding.UTF8.GetBytes(jwtSettings.Key);
+var key = Encoding.UTF8.GetBytes(jwtSettings!.Key!);
 
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
+
 .AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
@@ -103,6 +118,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseMiddleware<ActiveSessionMiddleware>(); // 2. Valida sesión activa en BD
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

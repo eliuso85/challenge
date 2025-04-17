@@ -20,6 +20,6 @@ public class RepositoryGestion(IDbConnection db) : IRepositoryGestion
         Params.Add($"@ContrasenaHash", pHashedPassword, DbType.String);
         Params.Add($"@Role", user.Role, DbType.String);
 
-        return await _db.QuerySingleAsync<User>("[dbo].sp_SaveUser", Params);
+        return await _db.QuerySingleAsync<User>("[dbo].sp_SaveUser", Params, commandType: CommandType.StoredProcedure);
     }
 }
