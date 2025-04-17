@@ -15,5 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Aplication\Application.csproj" />
   </ItemGroup>
-
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
 </Project>

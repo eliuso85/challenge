@@ -103,4 +103,8 @@ public class SessionService(IRepositorySession _repository) : ISessionService
         return responseApi;
     }
 
+    public object? FinalizarSesion(Session session)
+    {
+        throw new NotImplementedException();
+    }
 }

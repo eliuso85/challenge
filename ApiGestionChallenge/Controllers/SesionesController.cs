@@ -10,6 +10,9 @@ using System.Security.Claims;
 
 namespace ApiGestionChallenge.Controllers;
 
+/// <summary>
+///  controlador de Sesiones
+/// </summary>
 [Route("api/v1/[controller]")]
 [ApiController]
 public class SesionesController(ISessionService _service) : ControllerBase
@@ -28,12 +31,18 @@ public class SesionesController(ISessionService _service) : ControllerBase
     #endregion
 
     #region POST
+    /// <summary>
+    ///IniciarSesion
+    /// </summary>
     [HttpPost]
     [Route("iniciar")]
     //[Authorize(Roles = "User")]
     public async Task<ResponseApi> IniciarSesion([FromBody] IniciarSesionRequest request)
     => await _service.IniciarSesionAsync(request);
 
+    /// <summary>
+    ///FinalizarSesion
+    /// </summary>
     [HttpPost]
     [Route("finalizar")]
     //[Authorize(Roles = "admin")] 

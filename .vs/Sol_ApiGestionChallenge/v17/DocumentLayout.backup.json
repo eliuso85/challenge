@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\aplication\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|solutionrelative:aplication\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\apigestionchallenge\\controllers\\sesionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|solutionrelative:apigestionchallenge\\controllers\\sesionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\aplication\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|solutionrelative:aplication\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\apigestionchallenge\\controllers\\gestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|solutionrelative:apigestionchallenge\\controllers\\gestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\apigestionchallenge\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|solutionrelative:apigestionchallenge\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\apigestionchallenge\\apigestionchallenge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EAE200B-B5B9-40A9-ACF1-5322371FF570}|ApiGestionChallenge\\ApiGestionChallenge.csproj|solutionrelative:apigestionchallenge\\apigestionchallenge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F85E46F-D65E-445A-99CC-69AB95B7710F}|Application.Tests\\Application.Tests.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\application.tests\\sessionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F85E46F-D65E-445A-99CC-69AB95B7710F}|Application.Tests\\Application.Tests.csproj|solutionrelative:application.tests\\sessionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DFC5D0B-8D18-4D45-A8AA-18B1188EA18A}|infrastructure\\Infrastructure.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\infrastructure\\repository\\interfaces\\irepositorysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DFC5D0B-8D18-4D45-A8AA-18B1188EA18A}|infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\interfaces\\irepositorysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFC5D0B-8D18-4D45-A8AA-18B1188EA18A}|infrastructure\\Infrastructure.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\infrastructure\\repository\\data\\repositorysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFC5D0B-8D18-4D45-A8AA-18B1188EA18A}|infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\data\\repositorysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\aplication\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\aplication\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6D04316-B44B-40E5-9E87-F8DF8C71828E}|Entities\\Domain.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\entities\\request\\finalizarsesionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6D04316-B44B-40E5-9E87-F8DF8C71828E}|Entities\\Domain.csproj|solutionrelative:entities\\request\\finalizarsesionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|c:\\users\\elius\\downloads\\proyecto sys\\vemo challenge\\sol_apigestionchallenge\\aplication\\interfaces\\igestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DDE628-6205-486B-8E84-AC5AC0198BEE}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\igestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-04-17T00:07:48.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-17T00:03:05.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FinalizarSesionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Entities\\Request\\FinalizarSesionRequest.cs",
-              "RelativeDocumentMoniker": "Entities\\Request\\FinalizarSesionRequest.cs",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Entities\\Request\\FinalizarSesionRequest.cs",
-              "RelativeToolTip": "Entities\\Request\\FinalizarSesionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T23:41:30.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISessionService.cs",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ISessionService.cs",
-              "RelativeDocumentMoniker": "Aplication\\Interfaces\\ISessionService.cs",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ISessionService.cs",
-              "RelativeToolTip": "Aplication\\Interfaces\\ISessionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T23:19:00.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SesionesController.cs",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\SesionesController.cs",
-              "RelativeDocumentMoniker": "ApiGestionChallenge\\Controllers\\SesionesController.cs",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\SesionesController.cs",
-              "RelativeToolTip": "ApiGestionChallenge\\Controllers\\SesionesController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T23:15:26.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SessionService.cs",
               "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Services\\SessionService.cs",
               "RelativeDocumentMoniker": "Aplication\\Services\\SessionService.cs",
               "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Services\\SessionService.cs",
               "RelativeToolTip": "Aplication\\Services\\SessionService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADgv1gAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAhwGYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:47:05.96Z",
+              "WhenOpened": "2025-04-17T00:38:52.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SesionesController.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\SesionesController.cs",
+              "RelativeDocumentMoniker": "ApiGestionChallenge\\Controllers\\SesionesController.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\SesionesController.cs",
+              "RelativeToolTip": "ApiGestionChallenge\\Controllers\\SesionesController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwCoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:37:55.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionController.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\GestionController.cs",
+              "RelativeDocumentMoniker": "ApiGestionChallenge\\Controllers\\GestionController.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\GestionController.cs",
+              "RelativeToolTip": "ApiGestionChallenge\\Controllers\\GestionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:36:58.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ApiGestionChallenge\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ApiGestionChallenge\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:35:15.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ApiGestionChallenge",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\ApiGestionChallenge.csproj",
+              "RelativeDocumentMoniker": "ApiGestionChallenge\\ApiGestionChallenge.csproj",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\ApiGestionChallenge\\ApiGestionChallenge.csproj",
+              "RelativeToolTip": "ApiGestionChallenge\\ApiGestionChallenge.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T00:34:42.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IRepositorySession.cs",
               "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\infrastructure\\Repository\\Interfaces\\IRepositorySession.cs",
               "RelativeDocumentMoniker": "infrastructure\\Repository\\Interfaces\\IRepositorySession.cs",
               "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\infrastructure\\Repository\\Interfaces\\IRepositorySession.cs",
               "RelativeToolTip": "infrastructure\\Repository\\Interfaces\\IRepositorySession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:27:43.978Z",
+              "WhenOpened": "2025-04-17T00:27:18.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Aplication\\Interfaces\\ISessionService.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ISessionService.cs",
+              "RelativeToolTip": "Aplication\\Interfaces\\ISessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:25:45.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Aplication\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "Aplication\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:25:43.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGestionService.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\IGestionService.cs",
+              "RelativeDocumentMoniker": "Aplication\\Interfaces\\IGestionService.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Aplication\\Interfaces\\IGestionService.cs",
+              "RelativeToolTip": "Aplication\\Interfaces\\IGestionService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:25:39.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RepositorySession.cs",
-              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\infrastructure\\Repository\\Data\\RepositorySession.cs",
-              "RelativeDocumentMoniker": "infrastructure\\Repository\\Data\\RepositorySession.cs",
-              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\infrastructure\\Repository\\Data\\RepositorySession.cs",
-              "RelativeToolTip": "infrastructure\\Repository\\Data\\RepositorySession.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAASwCwAAAAsAAAAAAAAAA==",
+              "Title": "SessionServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Application.Tests\\SessionServiceTests.cs",
+              "RelativeDocumentMoniker": "Application.Tests\\SessionServiceTests.cs",
+              "ToolTip": "C:\\Users\\elius\\Downloads\\Proyecto Sys\\VEMO Challenge\\Sol_ApiGestionChallenge\\Application.Tests\\SessionServiceTests.cs",
+              "RelativeToolTip": "Application.Tests\\SessionServiceTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:27:36.486Z",
+              "WhenOpened": "2025-04-17T00:15:57.409Z",
               "EditorCaption": ""
             }
           ]

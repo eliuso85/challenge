@@ -8,4 +8,5 @@ public class Session
     public DateTime StartTime { get; set; }
     public int? CantidadRequerida { get; set; } = 0; // La cantidad de capacidad que usa la sesión
     public string Estado { get; set; } = string.Empty; // Por ejemplo, "activa" o "finalizada"
+    public Guid SessionId { get; set; }
 }
