@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGestionChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f320819cc7e2280efbf373fa97c49c1efb48584")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f9321a1ca62be3d385d33d10ed6e075e64a519")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGestionChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiGestionChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

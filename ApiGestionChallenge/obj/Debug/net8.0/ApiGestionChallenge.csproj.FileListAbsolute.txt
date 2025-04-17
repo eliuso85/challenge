@@ -101,3 +101,5 @@ C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\Api
 C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\ApiGestionChallenge\obj\Debug\net8.0\ApiGestionChallenge.pdb
 C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\ApiGestionChallenge\obj\Debug\net8.0\ApiGestionChallenge.genruntimeconfig.cache
 C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\ApiGestionChallenge\obj\Debug\net8.0\ref\ApiGestionChallenge.dll
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\ApiGestionChallenge\bin\Debug\net8.0\ApiGestionChallenge.xml
+C:\Users\elius\Downloads\Proyecto Sys\VEMO Challenge\Sol_ApiGestionChallenge\ApiGestionChallenge\obj\Debug\net8.0\ApiGestionChallenge.xml

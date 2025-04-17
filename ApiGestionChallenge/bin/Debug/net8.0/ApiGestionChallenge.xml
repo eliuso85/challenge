@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiGestionChallenge</name>
+    </assembly>
+    <members>
+        <member name="T:ApiGestionChallenge.Controllers.AuthController">
+            <summary>
+             controlador de Autorizacion en su primera version
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.AuthController.#ctor(Application.Interfaces.ILoginService)">
+            <summary>
+             controlador de Autorizacion en su primera version
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.AuthController.Login(Domain.Request.LoginRequest)">
+            <summary>
+             control de Autorizacion y login
+            </summary>
+        </member>
+        <member name="T:ApiGestionChallenge.Controllers.GestionController">
+            <summary>
+             controlador de Gestion
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.GestionController.#ctor(Application.Interfaces.IGestionService)">
+            <summary>
+             controlador de Gestion
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.GestionController.SaveUser(Domain.DTO.User)">
+            <summary>
+             controlador de Gestion guarda el nuevo usuario y manda correo electronico
+            </summary>
+        </member>
+        <member name="T:ApiGestionChallenge.Controllers.SesionesController">
+            <summary>
+             controlador de Sesiones
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.SesionesController.#ctor(Application.Interfaces.ISessionService)">
+            <summary>
+             controlador de Sesiones
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.SesionesController.ObtenerSesionesActivas">
+            <summary>
+            Lista todas las sesiones activas
+            </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.SesionesController.IniciarSesion(Domain.Request.IniciarSesionRequest)">
+             <summary>
+            IniciarSesion
+             </summary>
+        </member>
+        <member name="M:ApiGestionChallenge.Controllers.SesionesController.FinalizarSesion(Domain.Request.FinalizarSesionRequest)">
+             <summary>
+            FinalizarSesion
+             </summary>
+        </member>
+    </members>
+</doc>

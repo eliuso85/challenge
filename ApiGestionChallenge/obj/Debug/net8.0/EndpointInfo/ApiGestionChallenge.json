@@ -285,6 +285,23 @@
           },
           "data": {
             "nullable": true
+          },
+          "exito": {
+            "type": "boolean"
+          },
+          "mensaje": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "estado": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

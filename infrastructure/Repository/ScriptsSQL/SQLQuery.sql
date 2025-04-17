@@ -133,25 +133,24 @@ BEGIN
     -- Actualizar el estado de la sesión y poner la fecha de finalización
     UPDATE dbo.Sesiones
     SET Estado = 'finalizada',
-        EndTime = GETUTCDATE()
+        EndTime = GETDATE()
     WHERE Id = @SessionId AND RecursoId = @RecursoId
 END;
 
-
-CREATE PROCEDURE dbo.sp_ObtenerSesionesActivas
+alter PROCEDURE dbo.sp_ObtenerSesionesActivas
 AS
 BEGIN
     SET NOCOUNT ON;
     SELECT 
         Id, 
         UserId, 
-		RecursoId,
+		RecursoId as [RecursoId],
         StartTime, 
         CantidadRequerida, 
         Estado
     FROM dbo.Sesiones
     WHERE Estado = 'activa'
-	Order by StartTime asc;
+	ORDER BY StartTime DESC;
 END;
 
 
